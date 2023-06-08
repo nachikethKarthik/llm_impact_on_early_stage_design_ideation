@@ -15,7 +15,6 @@ for user_id, prompts in user_data.items():
 
 # Train the Word2Vec model
 model = Word2Vec(tokenized_data, min_count=1)
-
 # Get the word vectors
 word_vectors = model.wv
 
@@ -63,27 +62,4 @@ plt.title('Prompts Scatter Plot')
 plt.xlabel('TSNE Component 1')
 plt.ylabel('TSNE Component 2')
 plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
