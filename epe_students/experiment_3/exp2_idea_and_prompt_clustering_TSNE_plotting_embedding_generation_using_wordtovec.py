@@ -10,6 +10,8 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 import numpy as np
 
+# small_change
+
 # Load the tokenized dataframe from the pickle file
 with open('D:/research/llm_impact_on_early_stage_design_ideation/on_campus_students/experiment_3/tokenized_df_of_ideas_exp_3.pkl', 'rb') as f:
     tokenized_df_with_empt_strings = pickle.load(f)
